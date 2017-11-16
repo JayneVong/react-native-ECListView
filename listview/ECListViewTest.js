@@ -19,6 +19,10 @@ import ECListView from './ECListView'
 
 class ECListViewTest extends Component {
 
+    /**
+     * 构造函数中初始化默认数据
+     * @param props
+     */
     constructor(props) {
         super(props);
         const array = [];
@@ -64,14 +68,18 @@ class ECListViewTest extends Component {
         }, 3000);
     }
 
+    /**
+     * 绘制布局ECListView组件
+     * @returns {XML}
+     */
     render() {
         if (this.state.data) {
-            return <ECListView enableRefresh={true}
-                               enableLoadMore={true}
-                               dataSource={this.state.data}
-                               renderRow={(rowData) => this._renderRow(rowData)}
-                               onRefresh={() => this._refresh()}
-                               onLoading={() => this._loading()}
+            return <ECListView enableRefresh={true} // 是否使用刷新
+                               enableLoadMore={true} // 是否使用加载更多
+                               dataSource={this.state.data} // 数据源 数组形式[]
+                               renderRow={(rowData) => this._renderRow(rowData)} // 每一行的布局
+                               onRefresh={() => this._refresh()} // 刷新监听
+                               onLoading={() => this._loading()} // 加载更多监听
             />
         } else {
             return (<View/>)
