@@ -1,14 +1,4 @@
-# react-native-ECListView
-Load more based on React Native ListView encapsulation refresh
-
-
-##
-##
-## ECListView 使用说明
-##
-## Author:George King
-## Date:17/11/15
-##
+## react-native-ECListView
 
 ECListView.js 刷新加载组件
 ECListViewTest.js React Native 可运行测试AppRegistry.registerComponent('APP', () => App);
@@ -24,4 +14,4 @@ ECScreenUtil.js 屏幕工具类
  onLoading={() => this._loading()} ## 加载更多监听 可以再次请求更多数据变更数据
  />
 
- ## 请参考ECListViewTest.js
+请参考 listview/ECListViewTest.js
