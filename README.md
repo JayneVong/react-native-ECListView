@@ -1,4 +1,6 @@
-# react-native-ECListView
+# react-native-ECListView 
+
+## 基于React Native中ListView组件二次封装
 
 #### 使用步骤
 1.先把listview文件夹及文件夹里面文件拷贝到工程中 
