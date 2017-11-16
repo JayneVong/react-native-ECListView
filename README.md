@@ -1,7 +1,7 @@
 # react-native-ECListView
 
 ## 使用步骤
-### 第一步把listview文件夹及文件夹里面文件拷贝到工程中,可以不拷贝ECListViewTest.js因为这是可运行测试页面
+   第一步把listview文件夹及文件夹里面文件拷贝到工程中,可以不拷贝ECListViewTest.js因为这是可运行测试页面
 
 
 
@@ -14,5 +14,4 @@
  onLoading={() => this._loading()} ## 加载更多监听 可以再次请求更多数据变更数据 </br>
  />
 
-请参考 listview/ECListViewTest.js
 [更多使用方法请参考](https://github.com/George-King/react-native-ECListView/blob/master/listview/ECListViewTest.js)
