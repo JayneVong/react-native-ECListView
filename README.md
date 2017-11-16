@@ -1,8 +1,32 @@
 # react-native-ECListView
 
-## 使用步骤
-   第一步把listview文件夹及文件夹里面文件拷贝到工程中,可以不拷贝ECListViewTest.js因为这是可运行测试页面
+#### 使用步骤
+1.先把listview文件夹及文件夹里面文件拷贝到工程中 
+   注意:可以不拷贝ECListViewTest.js因为这是可运行测试页面
+2.导入ECListView组件
+import React, {Component} from 'react';
+import {
+    Text,
+    View
+} from 'react-native';
 
+import ECListView from './ECListView'
+3.开始使用
+在render方法中实现
+render() {
+        if (this.state.data) {
+            return <ECListView enableRefresh={true}
+                               enableLoadMore={true}
+                               dataSource={this.state.data}
+                               renderRow={(rowData) => this._renderRow(rowData)}
+                               onRefresh={() => this._refresh()}
+                               onLoading={() => this._loading()}
+            />
+        } else {
+            return (<View/>)
+        }
+
+    }
 
 
  <EListView </br>
