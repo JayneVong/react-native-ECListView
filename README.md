@@ -1,6 +1,7 @@
-## react-native-ECListView
+# react-native-ECListView
 
 ECListView.js 刷新加载组件
+=
 ECListViewTest.js React Native 可运行测试AppRegistry.registerComponent('APP', () => App);
 ECLoadingMore.js 加载更多组件
 ECScreenUtil.js 屏幕工具类
