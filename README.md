@@ -1,5 +1,8 @@
 # react-native-ECListView
-=
+
+## 使用步骤
+### 第一步把listview文件夹及文件夹里面文件拷贝到工程中,可以不拷贝ECListViewTest.js因为这是可运行测试页面
+
 
 
  <EListView </br>
