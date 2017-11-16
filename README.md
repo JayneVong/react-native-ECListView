@@ -1,6 +1,6 @@
 # ECListView 
 
-### 基于React Native中ListView组件简单封装下拉刷新 上拉加载更多组件
+### ECListView 是基于 React Native ListView 组件简单封装下拉刷新、上拉加载更多的组件
 
 ## 使用步骤
 ### 1. 先把 listview 文件夹及文件夹里面文件拷贝到工程中
